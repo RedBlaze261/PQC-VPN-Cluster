@@ -30,9 +30,11 @@ PQC-VPN-Cluster/
 
 
 Security Notice
-For security and compliance, all active cryptographic material (Private Keys, Certificates, and TLS Auth/Crypt keys) within these configuration files have been scrubbed and replaced with [PLACEHOLDER]. These files represent the structural logic and routing parameters of the network, not the live cryptographic identities.
+For security and compliance, all active cryptographic material (Private Keys, Certificates, and TLS Auth/Crypt keys) within these configuration files have been scrubbed and replaced with [PLACEHOLDER].
+These files represent the structural logic and routing parameters of the network, not the live cryptographic identities.
 
 Network Routing Details
-To prevent recursive VPN routing loops over the ZeroTier interface (eth0), the client nodes utilize static host routes. Setup scripts (setup_vmX.sh) are included in each node's directory to demonstrate the necessary iptables NAT masquerading and ip route adjustments.
+To prevent recursive VPN routing loops over the ZeroTier interface (eth0), the client nodes utilize static host routes.
+Setup scripts (setup_vmX.sh) are included in each node's directory to demonstrate the necessary iptables NAT masquerading and ip route adjustments.
 
 ***
